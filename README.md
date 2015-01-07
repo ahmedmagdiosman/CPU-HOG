@@ -14,8 +14,9 @@ Run:
  or
 * ./Release/HOGv1.8 [image name]
 
-## Bugs
+## Issues/Bugs
 * Gaussian weights for the block edges are not implemented.
+* Only RGB images are supported
 
 ## Environment
 * Compiled with gcc 4.8 in Debian Jessie (testing)
