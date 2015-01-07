@@ -11,9 +11,9 @@ Compiled with gcc 4.8 in Debian Jessie (testing)
 
 ## Usage
 Run:
-./Debug/HOGv1.8 <image name>
+./Debug/HOGv1.8 [image name]
 or
-./Release/HOGv1.8 <image name>
+./Release/HOGv1.8 [image name]
 
 ##Bugs
 Gaussian weights for the block edges are not implemented.
