@@ -3,7 +3,7 @@
 A CPU implementation of Histogram of Oriented Gradients [Dalal 2005] with the default parameters. The algorithm uses a sliding window on the image to generate the histograms. The feature vectors are saved under "CPU_features" and the gradient magnitude-and-angle calculation step is saved in "imgradient.txt", it's not pretty though :P
 
 ## Installation
-* CImg is needed to read images from disk. It is already included.
+* [CImg](http://cimg.sourceforge.net/) is needed to read images from disk. It is already included.
 * Make sure pthreads and X11 libraries are installed. This is needed for CImg to compile.
 * Either run the included makefiles (in Release/Debug) or compile with gcc and link (-lpthread) and (-lX11).
 
